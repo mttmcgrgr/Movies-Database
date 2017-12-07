@@ -1,0 +1,105 @@
+
+h1 {
+  color: #00008B;
+}
+
+header {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+  background: #F6F6F5;
+  margin-bottom: 5px;
+}
+
+li:nth-child(odd) {
+  background: #FBFBFB;
+}
+
+section {
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 72%;
+}
+
+
+img {
+  margin-top: 15px;
+  height: 305px;
+  width: 205px;
+  width: 28%;
+  box-shadow: 3px 3px 5px #848282;
+}
+
+button {
+  background-color: #EDE5CC;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #e1d9d9;
+  -webkit-appearance: none;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #E8D100;
+}
+
+a {
+  text-decoration: none;
+}
+
+.collapse-view {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  font-size: 14px;
+}
+
+.expanded-view {
+  font-size: 14px;
+  -webkit-box-orient: vertical;
+}
+
+
+.movie-item {
+  display: flex;
+  padding: 10px;
+}
+
+.title {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bolder;
+}
+
+.year {
+  color: gray;
+}
+
+.reviews {
+  background-color: white;
+  border: 1px solid #d7d7d7;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.movie-info {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.root {
+  display: block;
+  margin: auto;
+  width: 800px;
+  font-family: helvetica;
+}
