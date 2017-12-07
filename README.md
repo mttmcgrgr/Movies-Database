@@ -3,8 +3,7 @@
 ![image of movies list](docs/movies-list.png)
 
 
-Note:
-- Node v6.11 and npm v3.10.10 are used for development.
+How to Run:
 
 * Mac:
  1. Install Node (https://nodejs.org/en/download/)
